@@ -22,7 +22,7 @@ public class GestionnaireEmployes {
             System.out.println();
         }
     }
-    public void calculerEtAfficherSalaire(int heuresTravail, int tauxHoraire, int bonus) {
+    public void calcsalire(int heuresTravail, int tauxHoraire, int bonus) {
           for (Employe employe : listeEmployes) {
               int salaire = (heuresTravail * tauxHoraire) + bonus;
               System.out.println("Nom: " + employe.getNom());
